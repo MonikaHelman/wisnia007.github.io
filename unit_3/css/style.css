@@ -1,0 +1,26 @@
+body {
+
+	text-align: center;
+	color: black;
+	font-family: Helvetica;
+	background-image: url("images/tarifa.jpg")
+	background-size:cover;
+	
+}
+
+h1 {
+	color: black;
+
+}
+
+hr {
+	width: 200 px;
+}
+
+p {
+	font-size: 30 px;	
+}
+
+nav {
+	padding-right: 20 px;
+}
