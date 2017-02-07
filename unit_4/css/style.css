@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Open+Sans');
+
+body {
+	text-align: center;
+	font-size: 16px; /*16px=1em*/
+	text-align:center;
+	position: relative;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+#splash {
+	background-image: url("../images/Tarifaoldtown.jpg");
+	background-size:cover;
+	color: #fff;
+	height: 90vh;
+}
+
+#subheader {
+	color: #E83E68;
+	background-color: #C9E8D5;
+	margin:0px 0px 60px 0px;
+}
+
+h1 {
+	font-size: 4em;
+	padding: 30px 20px 30px;
+	color: #E83E68
+	font-family: 'Barrio', cursive;
+	color: #E83E68;
+	font-weight: bold;
+}
+
+h2 {
+	color: #E83E68
+}
+
+.chapters {
+	width:30em;
+	text-align: center;
+	margin: 0 24em;
+}
+
+p {
+	font-size: 1em;
+	width:30em;
+	line-height: 1.5em;
+}
+
+.navlinks {
+padding:0 10px;
+color: #E83E68;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 600;
+letter-spacing: 1px;
+line-height: 1.5em;
+background-color: #C9E8D5;
+
+}
+
+.cta {
+	background-color: #C9E8D5;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	padding:10px;
+}
+
+.restaurants {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.smallpics {
+	width: 30em;
+}
+
+hr {
+border:none;
+height:3px;
+background-color: #3C3C3C;
+width:2em;
+margin:2em auto;
+}
+
+footer {
+	margin: 0 24em;
+}
