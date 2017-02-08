@@ -1,49 +1,55 @@
 @import url('https://fonts.googleapis.com/css?family=Barrio|Open+Sans');
-
+* { margin:0; padding:0; box-sizing:border-box; }
 body {
-	text-align: center;
 	font-size: 16px; /*16px=1em*/
-	text-align:center;
 	position: relative;
+	line-height: 1.5;
 	font-family: 'Open Sans', sans-serif;
-	
 }
+nav {
+	text-align:center;
+}
+main {
+    width: 30em;
+    margin: auto;
+}
+
 #splash {
 	background-image: url("../images/Tarifaoldtown.jpg");
 	background-size:cover;
 	color: #fff;
-	height: 90vh;
+	overflow: hidden;
+	text-align:center;
+	/* height: 90vh; */
+}
+#splash div {
+    background: rgba(97, 4, 49, 0.55);
+    width: 50%;
+    float: right;
+    padding: 4em;
 }
 
+
 #subheader {
-	color: #E83E68;
-	background-color: #C9E8D5;
 	margin:0px 0px 60px 0px;
 }
 
 h1 {
 	font-size: 4em;
 	padding: 30px 20px 30px;
-	color: #E83E68
 	font-family: 'Barrio', cursive;
-	color: #E83E68;
 	font-weight: bold;
 }
 
-h2 {
-	color: #E83E68
+h1, h2, h3, h4 {
+	margin:1em 0;
+	text-align:center;
 }
 
-.chapters {
-	width:30em;
-	text-align: center;
-	margin: 0 24em;
-}
+.chapters {}
 
 p {
-	font-size: 1em;
-	width:30em;
-	line-height: 1.5em;
+	margin-top:1em;
 }
 
 .navlinks {
@@ -73,7 +79,7 @@ background-color: #C9E8D5;
 }
 
 .smallpics {
-	width: 30em;
+	width: 100%;
 }
 
 hr {
@@ -85,5 +91,6 @@ margin:2em auto;
 }
 
 footer {
-	margin: 0 24em;
+	margin: 0 auto;
+	background: #999;
 }
