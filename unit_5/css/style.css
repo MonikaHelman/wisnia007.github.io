@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Open+Sans');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-size: 16px; /*16px=1em*/
+	position: relative;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+header { /*added due to homework*/
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav { /*changed due to homework*/
+	text-align:center;
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+main {
+    width: 30em;
+    margin: auto;
+}
+
+section { /*added due to homework*/
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px;
+
+}
+
+#splash { 
+	background-image: url("../images/Tarifaoldtown.jpg");
+	background-size:cover;
+	color: #fff;
+	overflow: hidden;
+	text-align:center;
+	/* height: 90vh; */
+}
+#splash div { /*changed due to homework*/
+    background-color:  #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+#subheader {
+	margin:0px 0px 60px 0px;
+}
+
+h1 {
+	font-size: 4em;
+	padding: 30px 20px 30px;
+	font-family: 'Barrio', cursive;
+	font-weight: bold;
+}
+
+h2 {
+
+	font-weight: 900;
+	color:red;
+}
+
+h1, h2, h3, h4 {
+	margin:1em 0;
+	text-align:center;
+}
+
+
+
+.chapters {
+
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+p {
+	margin-top:1em;
+}
+
+.navlinks {
+padding:0 10px;
+color: #E83E68;
+text-transform: uppercase;
+text-decoration: none;
+font-weight: 600;
+letter-spacing: 1px;
+line-height: 1.5em;
+
+}
+
+.cta {
+	background-color: #C9E8D5;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	padding:10px;
+}
+
+.restaurants {
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.smallpics {
+	width: 100%;
+}
+
+hr {
+border:none;
+height:3px;
+background-color: #3C3C3C;
+width:2em;
+margin:2em auto;
+}
+
+footer { /*changed due to homework*/
+	margin: 0 auto;
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
