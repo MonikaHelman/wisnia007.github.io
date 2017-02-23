@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Open+Sans');
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-size: 16px; /*16px=1em*/
+	position: relative;
+	line-height: 1.5;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header h3 {
+
+	text-transform: uppercase;
+  	border-bottom: 4px solid black;
+	display: inline-block;
+  	font-weight: 800;
+  	padding: 10px;
+  	margin-left: 1.2em;
+  	clear:both;
+
+}
+
+
+
+nav {
+
+	font-family: 'Open Sans', sans-serif;
+	float:right;
+	margin-right: 1.2em;
+	
+}
+
+
+nav a {
+	
+	text-decoration: none;
+	padding: 10px;
+	display:inline-block;
+	text-align: center;
+	color: #E83E68;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	background-color: #C9E8D5;
+	margin-top: 1.7em;
+	margin-left: 1em;
+
+
+
+}
+
+a:hover {
+	background-color: white;
+}
+
+.clearfix:after {
+visibility: hidden;
+display: block;
+content: " ";
+clear: both;
+height: 0;
+font-size: 0;
+}
+
+#logo {
+	width:20%;
+	float:left;
+}
+
+#nav {
+	width:80%;
+	float:right;
+
+
+}
+
+
+main {
+    width: 60em;
+    margin: auto;
+}
+
+#two_columns {
+    background-color:#FFEEE6;
+    border: 1px black solid;
+    padding: 20px;
+    }
+
+#three_columns {
+	background-color: #E2E0E8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+ #left {
+    
+    border: 1px black solid;
+    padding: 20px;
+    float:left;
+    width:45%;
+}
+
+#right {
+    
+    border: 1px black solid;
+    padding: 20px;
+    float:right;
+    width:45%;
+}
+
+
+#splash {
+	background-image: url("../images/Tarifaoldtown.jpg");
+	background-size:cover;
+	color: #fff;
+	overflow: hidden;
+	text-align:center;
+	/* height: 90vh; */
+}
+
+#splash div {
+    background: rgba(97, 4, 49, 0.55);
+    width: 50%;
+    float: right;
+    padding: 4em;
+}
+
+
+#subheader {
+	margin:0px 0px 60px 0px;
+}
+
+
+
+h1 {
+	font-size: 4em;
+	padding: 30px 20px 30px;
+	font-family: 'Barrio', cursive;
+	font-weight: bold;
+}
+
+h1, h2, h3, h4 {
+	margin:1em 0;
+	text-align:center;
+}
+
+
+
+p {
+	margin-top:1em;
+}
+
+ul li {
+	margin-left: 1em;
+}
+
+
+
+.cta {
+	background-color: #C9E8D5;
+	color: #E83E68;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: bold;
+	padding:10px;
+}
+
+.restaurants {
+
+	text-transform: uppercase;
+
+}
+
+.smallpics {
+	width: 100%;
+	padding:0.5em;
+}
+
+.travel {
+	font-weight:bold;
+}
+
+hr {
+border:none;
+height:3px;
+background-color: #3C3C3C;
+width:4em;
+margin:0.5em auto;
+}
+
+footer {
+	margin: 0 auto;
+	background: rgba(97, 4, 49, 0.55);
+	text-align: center;
+	padding: 1em 0;
+    clear: both;
+}
+
