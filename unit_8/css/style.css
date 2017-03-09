@@ -202,7 +202,7 @@ label {
 
 .smallpics {
 	width: 100%;
-	/* padding:0.5em; */
+	padding:1 0em;
 
 
 }
@@ -225,74 +225,6 @@ footer {
 	text-align: center;
 	padding: 1em 0;
     clear: both;
-}
-
-
-/*changing hero picture and navigation*/
-
-@media screen and (max-width:1074px){
-
-nav a {
-	margin-bottom: 2em;
-	}
-}
-
-
-@media screen and (max-width:870px){
-
-
-#hero div {
-    width: 90%;
-    float: none;
-    margin-left:3em;
-}
-
-nav a {
-	display:block;
-	padding: 15px;
-	margin:5px;
-}
-
-nav {
-
-	font-family: 'Open Sans', sans-serif;
-	float:none;
-	margin: 1.2em;
-	/*display:none;*/
-}
-
-h1 {
-	padding-bottom: 10px;
-}
-
-header h3 {
-	display: none;
-}
-
-label {
-	display:block;
-	
-}
-/*does not work: read Unit 6 about adjacent sibling selectors*/
-#toggle:checked + nav{
-	display:block;
-}
-}
-
-@media screen and (max-width:693px){
-main {
-	width:30em;
-}
-
-
-#list_of_restaurants li {
-	float:left;
-	width: 50%;
-	padding: 2em;
-	min-height: 15em;
-	height:25em; /* it was floating down so I changed height to 320px/16px=20em*/
-
-	}
 }
 
 /*changing sections below hero picture*/
@@ -339,4 +271,82 @@ main {
 	}
 }
 
+/*changing hero picture and navigation*/
+
+@media screen and (max-width:1074px){
+
+nav a {
+			
+	margin-bottom: 2em;
+
+	}
+}
+
+
+@media screen and (max-width:870px){
+
+
+#hero div {
+    width: 90%;
+    float: none;
+    margin-left:3em;
+}
+nav a {
+	display:block;
+	padding: 15px;
+	margin:5px;
+
+
+	}
+
+nav {
+
+	font-family: 'Open Sans', sans-serif;
+	float:none;
+	margin: 1.2em;
+	/*display:none;*/
+	
+}
+h1 {
+	padding-bottom: 10px;
+}
+header h3 {
+	display: none;
+}
+label {
+	display:block;
+	
+}
+/*does not work: read Unit 6 about adjacent sibling selectors*/
+#toggle:checked + nav{
+	display:block;
+}
+}
+
+@media screen and (max-width:693px){
+main {
+	width:20em;
+	padding: 1em;
+
+}
+footer {
+	width:100%
+}
+
+
+#kiting article {
+    float:none;
+    width: 100%;
+ }  
+
+
+#list_of_restaurants li {
+	float:none;
+	width: 100%;
+	padding: 2em;
+	min-height: 15em;
+	height:20em; /* it was floating down so I changed height to 320px/16px=20em*/
+
+}
+}
 
