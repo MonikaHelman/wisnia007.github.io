@@ -7,7 +7,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 section {
-	padding:1em 0;
+	padding:.1em 0;
 }
 #About-Tarifa section {
 	padding:0;
@@ -80,18 +80,16 @@ height: 0;
 font-size: 0;
 }
 
-#logo {
-}
-
 
 main {
     width: 60em;
     margin: auto;
 }
 
+
 #kiting article {
     background-color:rgba(97, 4, 49, 0.30);
-    /*border: 1px black solid;*/
+    border: 1px black solid;
     padding: 2em;
     float:left;
     width: 48%;
@@ -142,7 +140,9 @@ main {
 	margin:0px 0px 60px 0px;
 }
 
-
+#toggle {
+	display:none;
+}
 
 h1 {
 	font-size: 4em;
@@ -160,6 +160,25 @@ h1, h2, h3, h4 {
 p {
 	margin-top:1em;
 }
+
+/*I need label for toggle element: as per lecture video unit 8*/
+
+label {
+	
+	text-decoration: none;
+	padding: 10px;
+	display:none;
+	text-align: center;
+	color: #E83E68;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	line-height: 1.5em;
+	background-color: #C9E8D5;
+	margin-top: 1.7em;
+	margin-left: 1em;
+
+	}
 
 
 
@@ -208,15 +227,116 @@ footer {
     clear: both;
 }
 
-@media screen and (max-width:480px){
 
-	nav a:link{
-		display: block;
-		padding:15px;
-		margin:5px;
-		float:none;
-		
+/*changing hero picture and navigation*/
+
+@media screen and (max-width:1074px){
+
+nav a {
+	margin-bottom: 2em;
+	}
+}
+
+
+@media screen and (max-width:870px){
+
+
+#hero div {
+    width: 90%;
+    float: none;
+    margin-left:3em;
+}
+
+nav a {
+	display:block;
+	padding: 15px;
+	margin:5px;
+}
+
+nav {
+
+	font-family: 'Open Sans', sans-serif;
+	float:none;
+	margin: 1.2em;
+	/*display:none;*/
+}
+
+h1 {
+	padding-bottom: 10px;
+}
+
+header h3 {
+	display: none;
+}
+
+label {
+	display:block;
+	
+}
+/*does not work: read Unit 6 about adjacent sibling selectors*/
+#toggle:checked + nav{
+	display:block;
+}
+}
+
+@media screen and (max-width:693px){
+main {
+	width:30em;
+}
+
+
+#list_of_restaurants li {
+	float:left;
+	width: 50%;
+	padding: 2em;
+	min-height: 15em;
+	height:25em; /* it was floating down so I changed height to 320px/16px=20em*/
+
+	}
+}
+
+/*changing sections below hero picture*/
+@media screen and (max-width:1026px){
+
+	main {
+    width: 40em;
 	}
 
+#list_of_restaurants li {
+	float:left;
+	width: 50%;
+	padding: 2em;
+	min-height: 15em;
+	height:18em; /* it was floating down so I changed height to 320px/16px=20em*/
+	
 	}
+
+ #where_to_stay_section {
+
+  	border: none;
+    padding: 20px;
+    float:none;
+    width:100%;
+  
+ }
+
+
+
+#how_to_get_here {
+    
+    border: none;
+    padding: 10px;
+	float:none;
+    width:100%;
+    
+}
+}
+
+@media screen and (max-width:513px){
+
+	main {
+    width: 10em;
+	}
+}
+
 
